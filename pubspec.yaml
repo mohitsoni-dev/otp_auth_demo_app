@@ -1,0 +1,36 @@
+name: task_app
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  toggle_switch: ^2.0.1
+  intl_phone_number_input: ^0.7.1
+  firebase_core: ^1.24.0
+  firebase_auth: ^3.11.2
+  otp_autofill: ^2.1.0
+  telephony: ^0.2.0
+  otp_text_field: ^1.1.3
+  fluttertoast: ^8.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo/
+
+  fonts:
+    - family: PT Serif
+      fonts:
+        - asset: assets/fonts/PTSerif-Regular.ttf
