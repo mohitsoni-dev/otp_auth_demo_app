@@ -143,12 +143,6 @@ class _AuthScreenState extends State<AuthScreen> {
                   bgColor: const Color(0xFFF5FFF3),
                   image: 'Google_Logo.png',
                   onPressed: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) =>
-                              OtpScreen(phoneNumber: phoneNumber),
-                        ));
                   },
                 ),
                 const SizedBox(height: 4),
